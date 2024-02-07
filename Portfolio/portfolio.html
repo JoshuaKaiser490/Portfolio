@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mein erstes Portfolio">
+    <link rel="stylesheet" href="style.css" />
+    <title>Mein Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>JOSHUA KAISER</h1>
+      <p>Junior Webentwickler</p>
+    </header>
+
+    <section>
+      <h2>Über mich</h2>
+      <p>
+        Ich bin Joshua, 26 Jahre alt, und meine Reise im Bereich Webentwicklung
+        begann im November 2023. Seitdem habe ich eine leidenschaftliche
+        Begeisterung für die Welt des Web Developments entwickelt. Meine
+        Motivation liegt darin, mich kontinuierlich weiterzubilden, um stets auf
+        dem neuesten Stand der Technologien und Trends zu sein.
+      </p>
+      <p>
+        In meiner Freizeit widme ich mich intensiv eigenen Projekten, um mein
+        erworbenes Wissen in die Praxis umzusetzen. Dabei liebe ich die kreative
+        Herausforderung, innovative Lösungen zu finden und meine Fähigkeiten in
+        der Webentwicklung zu vertiefen.
+      </p>
+      <p>
+        Mein Ziel ist es, durch meine Leidenschaft und Hingabe im Bereich
+        Webentwicklung nicht nur meine eigenen Fähigkeiten zu stärken, sondern
+        auch einen Beitrag zu inspirierenden und funktionalen digitalen
+        Projekten zu leisten.
+      </p>
+
+      <h2>Fähigkeiten</h2>
+      <div class="skills">
+        <div class="skill html">
+          <div class="skill-bar">
+            <div class="skill-fill"></div>
+          </div>
+          HTML
+        </div>
+
+        <div class="skill css">
+          <div class="skill-bar">
+            <div class="skill-fill"></div>
+          </div>
+          CSS
+        </div>
+
+        <div class="skill js">
+          <div class="skill-bar">
+            <div class="skill-fill"></div>
+          </div>
+          JavaScript
+        </div>
+
+        <div class="skill scss">
+          <div class="skill-bar">
+            <div class="skill-fill"></div>
+          </div>
+          SCSS
+        </div>
+      </div>
+
+      <h2>Portfolio</h2>
+     <a href="/Ballpython Website/html/index.html" target="_blank">
+        <div class="portfolio-item">
+        <img src="Bildschirmfoto vom 2024-02-05 10-21-38.png" alt="Projekt 1" />
+        <h2>Ballpython Website</h2>
+        <section id="welcome-section">
+          <h2>Willkommen bei Ballpython World</h2>
+          <p>
+            Deine ultimative Online-Quelle für alles über Ballpythons! Diese
+            Website ist eine lebendige Plattform für Liebhaber dieser
+            faszinierenden Schlangenart. Egal, ob du bereits stolzer Besitzer
+            eines Ballpythons bist oder einfach nur mehr über diese wundervollen
+            Tiere erfahren möchtest, hier bist du richtig.
+          </p>
+
+          <h3>Hauptfunktionen:</h3>
+
+          <section id="knowledge-database">
+            <h4>Wissensdatenbank</h4>
+
+          </section>
+
+          <section id="gallery">
+            <h4>Galerie</h4>
+
+          </section>
+
+          <section id="community-forum">
+            <h4>Community-Forum</h4>
+
+          </section>
+
+          <section id="latest-news">
+            <h4>Aktuelle Nachrichten</h4>
+
+          </section>
+        </section>
+      </div>
+        </a> 
+        <a href="/Sweety/index.html">
+      <div class="portfolio-item">
+        <img src="Bildschirmfoto vom 2024-02-05 10-22-45.png" alt="Projekt 2" />
+        <section id="sweety-section">
+          <h2>Willkommen bei Sweety - Deiner Donut-Oase</h2>
+          <p>Entdecke die süße Welt von Sweety, wo Donut-Träume wahr werden!</p>
+
+          <h3>Hauptfunktionen:</h3>
+
+          <section id="online-shop">
+            <h4>Online-Shop</h4>
+
+            <article id="donut-selection">
+              <h5>Donut-Auswahl</h5>
+              <p>
+                Stöbere durch unsere köstliche Auswahl an Donuts und wähle deine
+                Favoriten aus.
+              </p>
+            </article>
+
+          </section>
+
+          <section id="customer-reviews">
+            <h4>Kundenbewertungen</h4>
+
+          </section>
+
+          <section id="sweety-blog">
+            <h4>Sweety Blog</h4>
+
+            <article id="latest-post">
+              <h5>Neuester Beitrag</h5>
+              <p>
+                Entdecke die neuesten Trends in der Welt der Donuts und erhalte
+                Einblicke in unsere süßen Kreationen.
+              </p>
+            </article>
+
+          </section>
+        </section>
+      </div>
+     </a>
+    </section>
+
+    <footer>&copy; 2024 Mein Portfolio</footer>
+  </body>
+</html>
+
+
+<script>
+    // Funktion zum Anzeigen der Füllung der Fähigkeitsleiste
+    function fillSkillBar(skillClass, percentage) {
+      const skillFill = document.querySelector(`.${skillClass} .skill-fill`);
+      skillFill.style.width = percentage;
+    }
+
+    // Beispiel: Die HTML-Fähigkeitsleiste füllt sich auf 95% über 3 Sekunden
+    setTimeout(() => {
+      fillSkillBar('html', '95%');
+    }, 3000);

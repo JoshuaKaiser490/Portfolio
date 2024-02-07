@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="/css/kontakt.css">
+    <link rel="icon" type="image/png" href="/img/Ballpython-logo.png">
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="logo">
+            <a href="index.html">
+              <img src="/img/Ballpython-logo.png" alt="Königspython Logo"
+            /></a>
+          </div>
+  
+          <ul class="list">
+            <li class="listItem"><a href="index.html">Startseite</a></li>
+            <li class="listItem"><a href="merkmale.html">Merkmale</a></li>
+            <li class="listItem"><a href="galerie.html">Galerie</a></li>
+            <li class="listItem"><a href="über-uns.html">Über mich</a></li>
+            <li class="listItem"><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="mobileHeader">    
+        </div>
+      </header>
+
+    <section class="hero">
+        <h1>Kontakt</h1>
+        <p>Wir freuen uns über Ihr Interesse an unserem Unternehmen. Sie können uns auf folgende Weise erreichen:</p>
+    </section>
+
+    <section class="container">
+        <article class="python-info">
+            <p>
+            <h2>Kontaktinformationen</h2>
+            <ul> 
+                <br>
+                <li><strong>Adresse:</strong> Musterstraße 1, 12345 Musterstadt</li>
+                <li><strong>Telefon:</strong> +49 123 456789</li>
+                <li><strong>E-Mail:</strong> <a href="mailto:info@example.com">info@koenigspython.de</a></li>
+
+            </ul>
+            <br> 
+            <p><h2>Kontaktformular</h2></p>
+            <p>Sie können uns auch über das folgende Kontaktformular erreichen:</p>
+            <br>
+            <form action="kontaktverarbeitung.php" method="post">
+                <p><label for="name">Name:</label></p>
+                    <p><input type="text" id="name" name="name" required></p>
+                <p><label for="email">E-Mail:</label></p>
+                    <p><input type="email" id="email" name="email" required></p>
+                <p><label for="nachricht">Nachricht:</label></p>
+                    <p><textarea id="nachricht" name="nachricht" rows="4" required></textarea></p>
+                <p><button type="submit">Absenden</button></p>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="/img/Ballpython-logo.png" alt="Königspython Logo">
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2023 Königspythons</p>
+            <p>Kontakt: info@koenigspython.de</p>
+        </div>
+    </footer>
+</body>
+
+</html>
