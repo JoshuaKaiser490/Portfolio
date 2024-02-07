@@ -130,6 +130,10 @@ nav a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+article a{
+  color: black;
+}
+
 .gallery h2 {
   font-size: 28px;
   margin-bottom: 40px;
@@ -172,9 +176,9 @@ nav a:hover {
 }
 
 .desc {
-  padding: 50px;
+  padding: 40px;
   font-size: 25px;
-  /* text-align: center; */
+  text-align: center;
   background-color: #f2f2f2;
   border-radius: 0 0 8px 8px;
 }
@@ -233,3 +237,24 @@ footer {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-top: 10px;
+  }
+
+  .desc{
+    font-size: 15px;
+  }
+
+  article p{
+    font-size: 16px;
+    text-align: center;
+  }
+}
+

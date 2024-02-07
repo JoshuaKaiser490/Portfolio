@@ -191,3 +191,15 @@ footer {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-top: 10px;
+  }
+}
+

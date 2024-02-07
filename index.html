@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Mein erstes Portfolio">
+    <link rel="icon" href="Logo.png">
     <link rel="stylesheet" href="style.css" />
     <title>Mein Portfolio</title>
   </head>
@@ -67,7 +68,7 @@
       </div>
 
       <h2>Portfolio</h2>
-     <a href="/Ballpython Website/html/index.html" target="_blank">
+     <a href="/html/index.html" target="_blank">
         <div class="portfolio-item">
         <img src="Bildschirmfoto vom 2024-02-05 10-21-38.png" alt="Projekt 1" />
         <h2>Ballpython Website</h2>
@@ -105,7 +106,7 @@
         </section>
       </div>
         </a> 
-        <a href="/Sweety/index.html">
+        <a href="/Sweety/index.html" target="_blank">
       <div class="portfolio-item">
         <img src="Bildschirmfoto vom 2024-02-05 10-22-45.png" alt="Projekt 2" />
         <section id="sweety-section">
@@ -153,15 +154,3 @@
   </body>
 </html>
 
-
-<script>
-    // Funktion zum Anzeigen der Füllung der Fähigkeitsleiste
-    function fillSkillBar(skillClass, percentage) {
-      const skillFill = document.querySelector(`.${skillClass} .skill-fill`);
-      skillFill.style.width = percentage;
-    }
-
-    // Beispiel: Die HTML-Fähigkeitsleiste füllt sich auf 95% über 3 Sekunden
-    setTimeout(() => {
-      fillSkillBar('html', '95%');
-    }, 3000);
