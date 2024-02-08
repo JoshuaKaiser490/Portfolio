@@ -1,4 +1,5 @@
 # Portfolio von Joshua
+https://joshuakaiser490.github.io/Portfolio/
 
 Willkommen zu meinem Portfolio! Diese Webseite bietet einen Einblick in meine Fähigkeiten, Projekte und meine Reise als Webentwickler. Hier sind einige wichtige Abschnitte:
 
@@ -13,16 +14,6 @@ Eine Übersicht über meine Fähigkeiten in HTML, CSS, JavaScript, Node.js, Reac
 ## My Projects
 
 Entdecke einige meiner abgeschlossenen Projekte, darunter meine Ballpython Website und den Donut Shop Sweety.
-
-## Kontakt
-
-Möchtest du mit mir in Kontakt treten? Nutze das Kontaktformular und sende mir eine Nachricht.
-
-## Setup und Anpassung
-
-1. Lade das Repository herunter oder klone es.
-2. Öffne die `index.html`-Datei in deinem bevorzugten Webbrowser.
-3. Passe den Inhalt nach deinen Wünschen an, indem du die entsprechenden Abschnitte bearbeitest.
 
 ## Unterstützung und Mitwirkung
 

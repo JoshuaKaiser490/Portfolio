@@ -46,56 +46,6 @@ p {
 }
 
 .skills {
-  margin-top: 30px;
-}
-
-.skill {
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.skill-bar {
-  height: 20px;
-  background-color: #ecf0f1;
-  border-radius: 10px;
-  margin-top: 5px;
-  overflow: hidden;
-}
-
-.html .skill-fill {
-  height: 100%;
-  width: 95%;
-  background-color: #f16529;
-  border-radius: 10px;
-  transition: width 0.5s ease;
-}
-
-.css .skill-fill {
-  height: 100%;
-  width: 90%;
-  background-color: #2965f1;
-  border-radius: 10px;
-  transition: width 0.5s ease;
-}
-
-.js .skill-fill {
-  height: 100%;
-  width: 15%;
-  background-color: #f0db4f;
-  border-radius: 10px;
-  transition: width 0.5s ease;
-}
-
-.scss .skill-fill {
-  height: 100%;
-  width: 50%;
-  background-color: #cd6799;
-  border-radius: 10px;
-  transition: width 0.5s ease;
-}
-
-/* .skills {
     margin-top: 30px;
   }
 
@@ -113,37 +63,81 @@ p {
     overflow: hidden;
   }
 
-  .skill-fill {
+  .skill-fill{
     height: 100%;
     border-radius: 10px;
-    animation: fillAnimation 5s linear; 
   }
 
-  .html .skill-fill {
-    width: 0%;
+  .html .skill-fill{
+    width: 95%;
     background-color: #f16529;
+    animation: fillAnimation 5s linear; 
+
   }
 
-  .css .skill-fill {
-    width: 0%;
+  .css .skill-fill{
+    width: 90%;
     background-color: #2965f1;
+    animation: fillAnimationCss 5s linear; 
+
   }
 
   .js .skill-fill {
-    width: 0%;
+    width: 10%;
     background-color: #f0db4f;
+    animation: fillAnimationJs 5s linear; 
+
   }
 
   .scss .skill-fill {
-    width: 0%;
+    width: 50%;
     background-color: #cd6799;
+    animation: fillAnimationScss 5s linear; 
+
   }
 
-  @keyframes fillAnimation { 
-    to {
-      width: 99%;
+  @keyframes fillAnimation {
+   
+    0% {
+      width: 0%;
     }
-  } */
+
+    100% {
+      width: 95%;
+    }
+  }
+
+  @keyframes fillAnimationCss {
+   
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes fillAnimationJs {
+   
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 10%;
+    }
+  }
+  @keyframes fillAnimationScss {
+   
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
 
 a{
     text-decoration: none;
